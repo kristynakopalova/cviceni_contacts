@@ -8,6 +8,7 @@
   border-radius: 10px;
   font-family: monospace;
 }
+
 .contact {
   background-color: #f3f3f3;
   border-radius: 10px;
@@ -16,6 +17,7 @@
   margin: 15px;
   width: 400px;
 }
+
 .photo {
   width: 120px;
   height: 120px;
@@ -25,9 +27,14 @@
 
 .info {
   margin-left: 20px;
+  margin-right: 20px;
+
 }
+
 .info p {
   font-size: 22px;
+  display: flex;
+  flex-basis: auto;
 }
 
 .buttons {
@@ -40,3 +47,20 @@
 }
 
 /* ----Tvoje styly----- */
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.contact {
+  display: flex;
+}
